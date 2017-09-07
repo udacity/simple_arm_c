@@ -10,8 +10,8 @@ int main(int argc, char **argv)
 
   ros::NodeHandle n1,n2;
   
-  ros::Publisher joint1_pub = n1.advertise<std_msgs::Float64>("/simple_arm/joint_1_position_controller/command", 1000);
-  ros::Publisher joint2_pub = n2.advertise<std_msgs::Float64>("/simple_arm/joint_2_position_controller/command", 1000);
+  ros::Publisher joint1_pub = n1.advertise<std_msgs::Float64>("/simple_arm/joint_1_position_controller/command", 10);
+  ros::Publisher joint2_pub = n2.advertise<std_msgs::Float64>("/simple_arm/joint_2_position_controller/command", 10);
 
   ros::Rate loop_rate(10);
   
