@@ -6,7 +6,7 @@ A ROS node to demonstrate how ROS publisher works in C++.
 ### How to Launch the simulation?
 Make sure you already have a catkin workspace to work in!
 
-Navigate to the src folder in your catkin workspace::
+Navigate to the src folder in your catkin workspace:
 ```sh
 $ cd ~/catkin_ws/src
 ```
