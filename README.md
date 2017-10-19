@@ -37,4 +37,4 @@ Once the `simple_arm` package has been built, you can launch the simulation envi
 $ roslaunch simple_arm robot_spawn.launch
 ```
 
-** You should be able to see each revolute joint rotating between -pi/2 to pi/2 over time.
+Now, you should be able to see each revolute joint rotating between -pi/2 to pi/2 over time.
