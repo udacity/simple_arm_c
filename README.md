@@ -1,7 +1,7 @@
 [![Udacity - Robotics NanoDegree Program](https://s3-us-west-1.amazonaws.com/udacity-robotics/Extra+Images/RoboND_flag.png)](https://www.udacity.com/robotics)
 
 # simple_arm_C
-A ROS node to demonstrate how ROS publisher works in C++.  
+A `simple_arm` package to demonstrate how ROS publisher works in C++.  
 
 ### How to Launch the simulation?
 Make sure you already have a catkin workspace to work in!
