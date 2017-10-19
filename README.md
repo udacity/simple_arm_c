@@ -32,7 +32,7 @@ Make sure to install the missing system dependencies:
 $ rosdep install -i simple_arm
 ```
 
-Once the `simple_arm` package has been built, you can launch the simulation environment using:
+Once the ```simple_arm``` package has been built, you can launch the simulation environment using:
 ```sh
 $ roslaunch simple_arm robot_spawn.launch
 ```
