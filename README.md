@@ -1,6 +1,6 @@
 [![Udacity - Robotics NanoDegree Program](https://s3-us-west-1.amazonaws.com/udacity-robotics/Extra+Images/RoboND_flag.png)](https://www.udacity.com/robotics)
 
-# simple_arm
+# simple_arm_C
 A mini-project to better explain pub-sub architecture in ROS
 
 ### How to Launch the simulation?
