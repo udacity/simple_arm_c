@@ -13,7 +13,7 @@ $ cd ~/catkin_ws/src
 
 #### Clone the package:
 ```sh
-$ git clone https://github.com/udacity/simple_arm_C.git
+$ git clone https://github.com/udacity/simple_arm_c.git
 ```
 
 #### Source your environment:
