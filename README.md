@@ -1,7 +1,7 @@
 [![Udacity - Robotics NanoDegree Program](https://s3-us-west-1.amazonaws.com/udacity-robotics/Extra+Images/RoboND_flag.png)](https://www.udacity.com/robotics)
 
 # simple_arm_c
-A `simple_arm` package to demonstrate how ROS publisher works in C++.  
+A `simple_arm_c` package to demonstrate how ROS publisher works in C++.  
 
 ### How to Launch the simulation?
 Make sure you already have a catkin workspace to work in!
@@ -29,12 +29,12 @@ $ catkin_make
 
 #### Make sure to install the missing system dependencies:
 ```sh
-$ rosdep install -i simple_arm
+$ rosdep install -i simple_arm_c
 ```
 
-#### Once the `simple_arm` package has been built, you can launch the simulation environment using:
+#### Once the `simple_arm_c` package has been built, you can launch the simulation environment using:
 ```sh
-$ roslaunch simple_arm robot_spawn.launch
+$ roslaunch simple_arm_c robot_spawn.launch
 ```
 
 Now, you should be able to see each revolute joint rotating between -pi/2 to pi/2 over time!

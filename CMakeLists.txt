@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(simple_arm)
+project(simple_arm_c)
 
 ## Add support for C++11, supported in ROS Kinetic and newer
 # add_definitions(-std=c++11)
@@ -103,7 +103,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES simple_arm
+#  LIBRARIES simple_arm_c
 #  CATKIN_DEPENDS other_catkin_pkg
 #  DEPENDS system_lib
 )
@@ -118,7 +118,7 @@ catkin_package(
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
-#   src/${PROJECT_NAME}/simple_arm.cpp
+#   src/${PROJECT_NAME}/simple_arm_c.cpp
 # )
 
 ## Add cmake target dependencies of the library
@@ -129,7 +129,7 @@ catkin_package(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-# add_executable(${PROJECT_NAME}_node src/simple_arm_node.cpp)
+# add_executable(${PROJECT_NAME}_node src/simple_arm_c_node.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -186,7 +186,7 @@ catkin_package(
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_simple_arm.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_simple_arm_c.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()
@@ -199,6 +199,6 @@ include_directories(include ${catkin_INCLUDE_DIRS})
 
 add_executable(simple_mover scripts/simple_mover.cpp)
 target_link_libraries(simple_mover ${catkin_LIBRARIES})
-add_dependencies(simple_mover simple_arm_generate_messages_cpp)
+add_dependencies(simple_mover simple_arm_c_generate_messages_cpp)
 
 

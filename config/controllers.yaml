@@ -1,4 +1,4 @@
-simple_arm:
+simple_arm_c:
     #list of controllers
     joint_state_controller:
       type: joint_state_controller/JointStateController
